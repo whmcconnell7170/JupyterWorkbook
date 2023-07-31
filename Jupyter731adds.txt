@@ -9,3 +9,10 @@ with open('numbers.txt', 'r') as numbers:
     #print(num_list[0:3])
     for i in num_list[0:3]:
         print(i)
+
+--
+week 4 unit 4 examples
+with open('exercise_1.txt', 'w') as file:
+	for number in range (97, 97 + 26):
+		line = chr(number) + '\n'
+		file.write(line)
