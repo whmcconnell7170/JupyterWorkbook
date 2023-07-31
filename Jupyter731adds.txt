@@ -1,0 +1,11 @@
+#week4 unit3 exercise
+num_list = []
+with open('numbers.txt', 'r') as numbers:
+    for i in numbers:
+        i = i.strip()
+        i = int(i)
+        num_list.append(i)
+    num_list.sort(reverse=True)
+    #print(num_list[0:3])
+    for i in num_list[0:3]:
+        print(i)
